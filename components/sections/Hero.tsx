@@ -78,7 +78,7 @@ export default function Hero() {
           >
             See how it works
           </a>
-          <span className="hero-kicker">For creator-chefs &amp; kitchen owners</span>
+          <span className="hero-kicker">For creator-chefs &amp; restaurant owners</span>
         </motion.div>
       </motion.div>
 

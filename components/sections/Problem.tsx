@@ -9,7 +9,7 @@ export default function Problem() {
         <Reveal>
           <p className="eyebrow">The problem</p>
           <h2 className="h2" style={{ maxWidth: '12em' }}>
-            Empty kitchens. Stalled creators. Bored diners.
+            Empty restaurants. Stalled creators. Bored diners.
           </h2>
         </Reveal>
         <div className="problem-grid">

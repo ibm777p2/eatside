@@ -10,7 +10,7 @@ export default function Footer() {
       <div className="container">
         <div className="footer-top">
           <p className="lead" style={{ maxWidth: '18em' }}>
-            Empty kitchens. Full tables. <br />
+            Empty restaurants. Full tables. <br />
             <span style={{ color: 'var(--cyan)' }}>Not a restaurant. Not a pop-up. A residency.</span>
           </p>
           <nav className="footer-links" aria-label="Footer">

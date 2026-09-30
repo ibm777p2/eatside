@@ -16,7 +16,7 @@ export default function Opportunity() {
           </Reveal>
           <Reveal delay={0.1}>
             <p className="lead">
-              Three markets are converging: what America spends on food, the creators who shape it, and the kitchen
+              Three markets are converging: what America spends on food, the creators who shape it, and the restaurant
               capacity sitting idle.
             </p>
           </Reveal>

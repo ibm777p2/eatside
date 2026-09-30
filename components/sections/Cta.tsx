@@ -7,7 +7,7 @@ import { LogoMark } from '@/components/Logo';
 
 const roles = [
   { id: 'creator', label: 'Creator-Chef', hint: 'I have an audience' },
-  { id: 'kitchen', label: 'Kitchen', hint: 'I have a space' },
+  { id: 'kitchen', label: 'Restaurant', hint: 'I have a space' },
   { id: 'diner', label: 'Diner', hint: 'Notify me' },
 ] as const;
 
@@ -46,12 +46,12 @@ export default function Cta() {
       <div className="container cta-grid">
         <div>
           <Reveal>
-            <p className="eyebrow light">Empty kitchens. Full tables.</p>
+            <p className="eyebrow light">Empty restaurants. Full tables.</p>
             <h2 className="display">Your first residency starts here.</h2>
           </Reveal>
           <Reveal delay={0.1}>
             <p className="lead" style={{ marginTop: 28, maxWidth: '26em' }}>
-              Kitchens: earn revenue on nights you&apos;d otherwise lose money — zero upfront cost to join. Creator-chefs:
+              Restaurants: earn revenue on nights you&apos;d otherwise lose money — zero upfront cost to join. Creator-chefs:
               cook one night, earn $500–$2,000, build your brand. No lease. No deposit. No risk.
             </p>
           </Reveal>
@@ -79,7 +79,7 @@ export default function Cta() {
                     ))}
                   </div>
                   <div className="field">
-                    <label htmlFor="name">{role === 'kitchen' ? 'Kitchen / business name' : 'Name'}</label>
+                    <label htmlFor="name">{role === 'kitchen' ? 'Restaurant / business name' : 'Name'}</label>
                     <input id="name" name="name" required autoComplete="name" />
                   </div>
                   <div className="field">

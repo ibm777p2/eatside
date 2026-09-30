@@ -6,7 +6,7 @@ import { AnimatePresence, motion, useScroll, useTransform } from 'framer-motion'
 import Reveal from '@/components/Reveal';
 import { platform } from '@/lib/content';
 
-type Audience = 'creators' | 'kitchens';
+type Audience = 'creators' | 'restaurants';
 
 export default function Platform() {
   const [tab, setTab] = useState<Audience>('creators');
@@ -29,7 +29,7 @@ export default function Platform() {
         </Reveal>
 
         <div className="tabs" role="tablist" aria-label="Choose your side">
-          {(['creators', 'kitchens'] as Audience[]).map((k) => (
+          {(['creators', 'restaurants'] as Audience[]).map((k) => (
             <button key={k} role="tab" aria-selected={tab === k} className={`tab ${tab === k ? 'active' : ''}`} onClick={() => setTab(k)}>
               {tab === k && <motion.span layoutId="tab-pill" className="tab-pill" transition={{ type: 'spring', stiffness: 400, damping: 34 }} />}
               {platform[k].title}

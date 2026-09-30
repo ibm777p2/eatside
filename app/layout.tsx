@@ -10,12 +10,12 @@ const sans = Inter_Tight({
 });
 
 export const metadata: Metadata = {
-  title: 'Eatside — Residency: Transforming Dark Kitchens Into Viral Dining',
+  title: 'Eatside — Residency: Transforming Dark Restaurants Into Viral Dining',
   description:
-    'Not a restaurant. Not a pop-up. A residency. Eatside matches underutilized commercial kitchens with creator-chefs for one-night dining residencies.',
+    'Not a restaurant. Not a pop-up. A residency. Eatside matches underutilized commercial restaurants with creator-chefs for one-night dining residencies.',
   openGraph: {
-    title: 'Eatside — Empty kitchens. Full tables.',
-    description: 'Airbnb for restaurant nights. Kitchens earn on dead nights, creator-chefs cook for their audience.',
+    title: 'Eatside — Empty restaurants. Full tables.',
+    description: 'Airbnb for restaurant nights. Restaurants earn on dead nights, creator-chefs cook for their audience.',
     images: ['/images/service.jpg'],
   },
 };

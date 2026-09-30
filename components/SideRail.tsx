@@ -37,7 +37,7 @@ export default function SideRail() {
         <motion.i style={{ scaleY }} />
       </div>
       <span className="rail-dot" />
-      <span className="rail-text">EMPTY KITCHENS &nbsp;I&nbsp; FULL TABLES</span>
+      <span className="rail-text">EMPTY RESTAURANTS &nbsp;I&nbsp; FULL TABLES</span>
     </aside>
   );
 }

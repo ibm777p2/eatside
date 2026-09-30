@@ -1,6 +1,6 @@
 # Eatside — Residency landing page
 
-Landing page for Eatside ("Residency: Transforming Dark Kitchens Into Viral Dining"), built from the
+Landing page for Eatside ("Residency: Transforming Dark Restaurants Into Viral Dining"), built from the
 `Eatside App.pdf` pitch deck — same copy, photography, palette and layout language.
 
 **Stack:** Next.js 15 (App Router) · React 19 · Three.js via `@react-three/fiber` + `drei` · Framer Motion · Lenis smooth scroll.
